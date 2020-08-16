@@ -1,0 +1,10 @@
+@import url(./_title/cover__info_title.css);
+@import url(./_subtitle/cover__info_subtitle.css);
+
+.cover__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

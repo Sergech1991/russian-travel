@@ -1,0 +1,14 @@
+.place__text_paragraph {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .place__text_paragraph {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}

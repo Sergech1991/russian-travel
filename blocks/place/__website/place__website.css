@@ -1,0 +1,19 @@
+@import url(./_url-heading/place__website_url-heading.css);
+@import url(./_link/place__website_link.css);
+
+.place__website {
+  margin-bottom: 48px;
+  align-self: flex-end;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .place__website {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .place__website {
+    display: none;
+  }
+}

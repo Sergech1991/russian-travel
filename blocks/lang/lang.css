@@ -1,0 +1,12 @@
+@import url(./__item/lang__item.css);
+@import url(./__link/lang__link.css);
+@import url(./__link/_state_active/lang__link_state_active.css);
+
+.lang {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+  margin: 0;
+}

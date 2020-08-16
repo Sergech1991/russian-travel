@@ -1,0 +1,29 @@
+.lead__text {
+  margin-top: 8px;
+  margin-bottom: 92px;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .lead__text {
+    padding-left: 24px;
+    margin-bottom: 88px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .lead__text {
+    padding-left: 24px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .lead__text {
+    padding-left: 16px;
+    margin-bottom: 64px;
+  }
+}

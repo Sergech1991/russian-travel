@@ -1,0 +1,26 @@
+@import url(./__item/list__item.css);
+@import url(./__span-accent/list__span-accent.css);
+
+.intro__list {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 92px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .intro__list {
+    margin-bottom: 88px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .intro__list {
+    margin-bottom: 75px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .intro__list {
+    margin-bottom: 64px;
+  }
+}
