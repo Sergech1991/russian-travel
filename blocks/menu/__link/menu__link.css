@@ -7,9 +7,10 @@
 
 .menu__link:hover {
   opacity: .8;
+  transition: opacity .5s ease;
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media (max-width: 479px) {
   .menu__link {
     font-size: 24px;
     line-height: 24px;

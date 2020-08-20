@@ -3,7 +3,7 @@
   height: 52px;
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media (max-width: 479px) {
   .logo {
     width: 142px;
     height: 42px;

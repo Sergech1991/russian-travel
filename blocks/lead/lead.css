@@ -1,6 +1,6 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
-@import url(./__polka/lead__polka.css);
+@import url(./__photo-polka/lead__photo-polka.css);
 @import url(./__text/lead__text.css);
 
 .lead {
@@ -8,19 +8,13 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .lead {
     width: calc(100% - 96px);
   }
 }
 
-@media (min-width: 980px) and (max-width: 1023px) {
-  .lead {
-     width: calc(100% - 96px);
-   }
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
+@media (max-width: 979px) {
   .lead {
     width: 100%;
   }
