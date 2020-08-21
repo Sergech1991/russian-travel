@@ -3,20 +3,22 @@
   text-decoration: none;
   font-size: 24px;
   line-height: 28px;
+  transition: opacity 1s ease;
 }
 
 .lang__link:hover {
   opacity: .8;
+
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lang__link {
     font-size: 22px;
     line-height: 26px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media (max-width: 479px) {
   .lang__link {
     font-size: 18px;
     line-height: 24px;

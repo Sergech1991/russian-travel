@@ -1,50 +1,39 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
+  width: calc(100% - 96px);
   margin: 0 auto;
-  max-width: calc(100% - 96px);
   display: grid;
-  grid-template-columns: repeat(4, 284px);
+  justify-content: center;
+  /*Юля(Yuliya Nikul), если ты будешь проверять мою работу, поясни, почему ты в minmax ставишь 288рх, если на макете в этом блоке самая маленькая картинка 284рх?
+  288картинка*4 + 16gap*3 + 48отсупы*2 = 1296 ведь, а нам надо максимум 1280*/
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
+  margin-bottom: 92px;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .photo-grid {
-    max-width: 928px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 14px;
   }
 }
 
-@media (min-width: 980px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .photo-grid {
-    max-width: 928px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 14px;
+    gap: 16px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (max-width: 979px) {
   .photo-grid {
-    max-width: 732px;
-    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    gap: 14px;
+    width: calc(100% - 48px);
     margin-bottom: 88px;
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 479px) {
   .photo-grid {
-    max-width: 352px;
-    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    margin-bottom: 64px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 479px) {
-  .photo-grid {
-    max-width: calc(100% - 32px);
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    width: calc(100% - 32px);
     margin-bottom: 64px;
   }
 }

@@ -7,21 +7,20 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (max-width: 979px) {
   .lead__text {
     padding-left: 24px;
     margin-bottom: 88px;
   }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead__text {
-    padding-left: 24px;
     margin-bottom: 70px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media (max-width: 479px) {
   .lead__text {
     padding-left: 16px;
     margin-bottom: 64px;
